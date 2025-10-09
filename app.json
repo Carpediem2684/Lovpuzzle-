@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "LovPuzzle",
+    "slug": "lovpuzzle",
+    "version": "1.0.0",
+    "scheme": "lovpuzzle",
+    "orientation": "portrait",
+    "jsEngine": "hermes",
+    "plugins": [
+      [
+        "expo-image-picker"
+      ],
+      [
+        "expo-media-library"
+      ],
+      [
+        "expo-file-system"
+      ]
+    ],
+    "android": {
+      "package": "com.ty.lovpuzzle",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.READ_MEDIA_AUDIO",
+        "android.permission.INTERNET"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "67169570-8d57-4c0c-9702-0591c6931ea9"
+      }
+    }
+  }
+}
